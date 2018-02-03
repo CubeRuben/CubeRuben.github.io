@@ -4,7 +4,12 @@ body {
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
-    min-height: 637px;
+    min-height: 100vh;
+}
+
+.a_none {
+    text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -51,6 +56,14 @@ nav {
     background-color: #242424;
     box-shadow: 0 0 50px lightblue;
     margin-top: auto;
+}
+
+.vk {
+    background-color: #2a5885;
+    width: 48px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 4px;
 }
 
 .content {
