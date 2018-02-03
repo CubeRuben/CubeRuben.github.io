@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    min-height: 637px;
+}
+
+.header {
+    min-height: 30px;
+    background-color: #242424;
+    box-shadow: 0 0 50px lightblue;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    height: 100px;
+    box-shadow: 0 0 50px black;
+    border-radius: 60px;
+    margin: 5px;
+}
+
+nav {
+    height: 23px;
+    margin: auto 10px auto auto;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li .button {
+    padding: 5px;
+    background-color: #b3ff81;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #b3ff81;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer {
+    min-height: 30px;
+    background-color: #242424;
+    box-shadow: 0 0 50px lightblue;
+    margin-top: auto;
+}
+
+.content {
+}
