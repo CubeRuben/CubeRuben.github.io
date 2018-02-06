@@ -28,6 +28,11 @@ body {
     margin: 5px;
 }
 
+.name_avatar {
+    color: #b3ff81;
+    margin: auto 0;
+}
+
 nav {
     height: 23px;
     margin: auto 10px auto auto;
@@ -44,6 +49,11 @@ nav {
     background-color: #b3ff81;
     border-radius: 2px;
     box-shadow: 0 0 20px #b3ff81;
+}
+
+.nav li .button:hover {
+    background-color: #63dbff;
+    box-shadow: 0 0 20px #63dbff;
 }
 
 .nav li {
@@ -64,7 +74,73 @@ nav {
     border-radius: 5px;
     padding: 3px;
     margin: 4px;
+    float: right;
 }
 
 .content {
+}
+
+.top-content {
+    margin: 30px 33%;
+    padding: 10px;
+    border: 2px solid lightgray;
+    box-shadow: 0 0 40px grey;
+    border-radius: 10px;
+}
+
+.new {
+    margin: 20px 22%;
+    border: 2px solid #b3ff81;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #b3ff81;
+}
+
+.new p {
+    padding: 10px;
+    margin: 0;
+}
+
+.data {
+    width: 75px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.name_game {
+    margin-left: auto;
+    margin-right: auto;
+    width: 317px;
+}
+
+.info_game {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.versions_game {
+    list-style: none;
+    width: 210px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.download_game {
+    border: 1px solid #b3ff81;
+    box-shadow: 0 0 10px #b3ff81;
+    padding: 5px;
+}
+
+.versions_game li {
+    margin-top: 20px;
+}
+
+.download_game:hover {
+    border: 1px solid #63dbff;
+    box-shadow: 0 0 10px #63dbff;
+}
+
+.download {
+    width: 60px;
+    margin: 10px auto;
 }
