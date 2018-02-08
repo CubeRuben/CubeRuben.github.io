@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    min-height: 30px;
+    min-height: 50px;
     background-color: #242424;
     box-shadow: 0 0 50px lightblue;
     margin: 0;
@@ -138,9 +138,30 @@ nav {
 .download_game:hover {
     border: 1px solid #63dbff;
     box-shadow: 0 0 10px #63dbff;
+    background-color: #63dbff;
+    color: white;
 }
 
 .download {
-    width: 60px;
+    width: 90px;
+    margin: 10px auto;
+}
+
+.new_about_game {
+    width: 700px;
+    box-shadow: 0 0 20px #b3ff81;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #b3ff81;
+}
+
+.new_game {
+    margin: 0;
+    padding: 10px;
+}
+
+.new_game_logo {
+    width: 167px;
     margin: 10px auto;
 }
