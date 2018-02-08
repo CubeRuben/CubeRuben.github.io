@@ -65,6 +65,11 @@ nav {
     margin-top: auto;
 }
 
+.vk a {
+    color: white;
+    text-shadow: 0 0 10px #50a9ff;
+}
+
 .vk {
     background-color: #2a5885;
     width: 48px;
