@@ -7,6 +7,15 @@ body {
     min-height: 100vh;
 }
 
+.cube {
+    border-collapse: collapse;
+    margin: 12px;
+}
+
+.big {
+    padding: 3px;
+}
+
 .a_none {
     text-decoration: none;
     color: black;
@@ -19,18 +28,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: row;
-}
-
-.avatar {
-    height: 100px;
-    box-shadow: 0 0 50px black;
-    border-radius: 60px;
-    margin: 5px;
-}
-
-.name_avatar {
-    color: #b3ff81;
-    margin: auto 0;
 }
 
 nav {
@@ -107,12 +104,6 @@ nav {
     margin-right: 0;
 }
 
-.name_game {
-    margin-left: auto;
-    margin-right: auto;
-    width: 317px;
-}
-
 .info_game {
     width: 700px;
     margin: 10px auto;
@@ -162,6 +153,37 @@ nav {
 }
 
 .new_game_logo {
-    width: 167px;
     margin: 10px auto;
+}
+
+.gallery {
+    width: 91%;
+    margin: 10px auto;
+}
+
+.photo {
+    background-color: #b3ff81;
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px black;
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+}
+
+.top {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.photo:hover {
+    background-color: #b3ff81;
+    box-shadow: 0 0 0 black;
 }
