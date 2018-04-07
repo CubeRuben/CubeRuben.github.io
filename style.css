@@ -53,6 +53,13 @@ nav {
     box-shadow: 0 0 20px #63dbff;
 }
 
+.active_button {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #63dbff;
+    box-shadow: 0 0 20px #63dbff;
+}
+
 .nav li {
     display: inline-block;
     margin-right: 10px;
@@ -249,4 +256,26 @@ nav {
 
 .vk-none {
     text-decoration: line-through;
+}
+
+.games {
+    margin-top: 30px;
+    border: 2px solid #b3ff81;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #b3ff81;
+}
+
+.games td {
+    padding: 5px;
+    width: 250px;
+    border: 2px solid #b3ff81;
+    box-shadow: 0 0 20px #b3ff81;
+    border-radius: 10px;
+}
+
+.games td:hover {
+    background-color: #63dbff;
+    border: 2px solid #63dbff;
+    box-shadow: 0 0 20px #63dbff;
 }
